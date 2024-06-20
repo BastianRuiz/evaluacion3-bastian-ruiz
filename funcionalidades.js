@@ -24,9 +24,9 @@ document.getElementById('btnSave').addEventListener('click', async (event) => {
             precio: document.getElementById('Precio').value
         }
         if (id == 0) {
-            if (await verNombre(lanz)) {
+            if (await verFecha(lanz)) {
                 Swal.fire('esta fecha ya esta registrada', ' ', 'error');
-                document.getElementById('nombre').classList.add('is-invalid');
+                document.getElementById('lanzamiento').classList.add('is-invalid');
             }
             else{
             //función que permite el guardado de datos
