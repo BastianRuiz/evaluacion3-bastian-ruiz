@@ -1,0 +1,74 @@
+@font-face {font-family: 'chechal';
+src:url('Circus.ttf') format('truetype');
+}
+
+.chechal{
+    font-family: 'chechal';
+    font-size: 80px;
+    color: rgb(132, 0, 64);
+    text-shadow: 0px 5px 15px rgba(75, 42, 50, 0.82);
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff006f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos del contenedor principal */
+header, main, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos de la sección visual */
+.visual-section {
+    background-color: #ff005d;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo del encabezado de la sección visual */
+.visual-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo del párrafo de la sección visual */
+.visual-section p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Estilo del botón de la sección visual */
+.visual-section button {
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilo del botón al pasar el ratón */
+.visual-section button:hover {
+    background-color: #005f5f;
+}
+
+/* Pie de página pegado al fondo */
+footer {
+    margin-top: auto;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
