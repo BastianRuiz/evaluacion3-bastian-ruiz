@@ -1,5 +1,5 @@
 //se importa la función para guardar los datos
-import { getData, getDocumento, remove, save, update, verNombre } from './firestore.js'
+import { getData, getDocumento, remove, save, update, verFecha } from './firestore.js'
 //id para guardar el id del documento 
 let id = 0
 //addEventListener permite activar el elemento según un evento(click)
