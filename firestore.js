@@ -48,8 +48,8 @@ export const update = (id,player) =>{
     updateDoc(doc(db,'Jugadores',id),player)
 }
 
-export const verNombre = async (nombre) => {
-    const q = query(collection(db, 'Jugadores'), where('lanz', '==', nombre)); //la wea donde dice nom se supone que tiene que ser como lo tienes en la db
-    const querySnapshot = await getDocs(q); //teni que importar getDocs, query, where,
+export const verFecha = async (fecha) => {
+    const q = query(collection(db, 'Jugadores'), where('lanz', '==', fecha)); 
+    const querySnapshot = await getDocs(q); 
     return !querySnapshot.empty;
 }
